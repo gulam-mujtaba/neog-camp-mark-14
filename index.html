@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stock Profit and Loss App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Let's check Profit / Loss on your Stocks!</h1>
+      <h3>Calculate how much profit you're making on your stock</h3>
+      <label for="buy-price">Enter your Stock Purhase Price</label><br />
+      <input type="number" id="buy-price" /><br />
+      <label for="quantity">Enter the Quantity of Stocks purchased</label><br />
+      <input type="number" id="quantity" /><br />
+      <label for="current-price">Enter the current Price of the Stock</label
+      ><br />
+      <input type="number" id="current-price" /><br />
+      <button id="check">Check</button><br />
+
+      <br />
+      <div id="output"></div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap");
+
+body {
+  font-family: PT Sans Caption;
+  padding: 10px;
+  background-image: url(images/bggolden.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 25px;
+  text-align: center;
+  font-size: larger;
+}
+
+.container,
+.container:hover {
+  background-color: #ffbc65;
+  padding: 20px;
+  margin: 15px;
+  border-radius: 20px;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.336),
+    0 17px 50px 0 rgba(0, 0, 0, 0.288);
+}
+
+h1 {
+  color: #683e00;
+  margin: 15px;
+}
+
+h3 {
+  padding: 5px;
+}
+
+input {
+  background-color: blanchedalmond;
+  font-size: large;
+  font-family: PT Sans Caption;
+  padding: 5px;
+  margin: 15px;
+  border-radius: 15px;
+  border-color: rgb(39, 23, 0);
+}
+
+input :hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.336),
+    0 17px 50px 0 rgba(0, 0, 0, 0.288);
+}
+
+label {
+  font-weight: bold;
+  color: #422c0a;
+}
+
+#check {
+  margin: 5px;
+  padding: 10px;
+  font-size: large;
+  font-family: PT Sans Caption;
+  font-weight: thin;
+  border-radius: 15px;
+  color: #fff7eb;
+  background-color: #502e01;
+  border-color: #ff9100;
+}
+
+#check:hover {
+  background-color: #e78300;
+  color: rgb(0, 0, 0);
+  font-size: large;
+  border-color: rgb(66, 43, 0);
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.336),
+    0 17px 50px 0 rgba(0, 0, 0, 0.288);
+}
+
+#output,
+#output:hover {
+  font-size: larger;
+  font-weight: bolder;
+  border-radius: 25px;
+  color: #423300;
+  background-color: none;
+  padding: 5px;
+}
