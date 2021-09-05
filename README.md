@@ -1,4 +1,4 @@
-# Stock Profit and Loss App 
+# Stock Profit / Loss App 
 This app helps you calculate profit or loss on your stocks
 
 1. Enter your Buy Price.
