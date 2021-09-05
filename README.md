@@ -1,5 +1,8 @@
-Stock profit or loss app.
+# Stock Profit and Loss App 
+This app helps you calculate profit or loss on your stocks
 
-It tells you whether your stocks are making profit or loss. 
-Enter your Buy Price, Quantity and Current Price. See if your stocks are making profit or loss.
+1. Enter your Buy Price.
+2. Enter the Quantity bought.
+3. Enter the Current Price. 
+4. See if your stocks are **making profit or loss.**
 
